@@ -51,7 +51,3 @@ def prim(n):
              
     else:
         return prim(-n)  
-    
-    
-                        
-print(prim(-109))
