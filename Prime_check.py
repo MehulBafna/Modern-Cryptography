@@ -20,7 +20,3 @@ def prime_check(n):
             return(str(n)+' is not a prime number.')
             break
     return str(n)+' is a prime number.' 
-        
-    
-            
-print(prime_check(53))
