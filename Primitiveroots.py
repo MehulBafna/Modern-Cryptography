@@ -1,4 +1,4 @@
-# Calculation of Primitive roots of a prime number n
+# Calculation of Primitive roots for a number
 import numpy as np
 import math
 
