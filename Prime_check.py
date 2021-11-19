@@ -18,5 +18,4 @@ def prime_check(n):
             continue
         else:
             return(str(n)+' is not a prime number.')
-            break
     return str(n)+' is a prime number.' 
