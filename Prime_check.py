@@ -12,10 +12,10 @@ def gcd(a,b):
     
 def prime_check(n):
     if n<=1:
-        return 'Invalid input'
+        return str(n)+' is not a prime number.'
     for i in range(2,int(math.sqrt(n))+1):
         if gcd(n,i)==1:
             continue
         else:
-            return(str(n)+' is not a prime number.')
+            return str(n)+' is not a prime number.'
     return str(n)+' is a prime number.' 
