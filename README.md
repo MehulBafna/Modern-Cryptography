@@ -1,11 +1,11 @@
 # Modern-Cryptography
 
-Primitive root
+## **Primitive root**
 
 In modular arithmetic, a  primitive root is described as a number d modulo n such that for every integer y coprime to n, there exist some integer x for which d<sup>x</sup>  ≡ y (mod n). 
 The value x is termed as the index or discrete logarithm of y to the base d modulo n. 
 
-Baby step giant step algorithm
+## **Baby step giant step algorithm**
 
 It is an efficient algorithm for computing discrete logarithm in the following manner.
 
