@@ -9,7 +9,7 @@ The value x is termed as the index or discrete logarithm of y to the base d modu
 
 It is an efficient algorithm for computing discrete logarithm in the following manner.
 
-1. Compute m = √(p−1)
+1. Compute m = \left\lceil \sqrt{n} \right\rceil 
 2. Write x in terms of m, q and r as x=qm+r with 0≤q, r≤m−1. 
 3. We need to find q and r such that (α<sup>m</sup>)<sup>q</sup> = n(α<sup>-1</sup>)<sup>r</sup>(mod p).
 4. Compute value of f(r) = n(α<sup>-r</sup>)(mod  p) for r ∈ {0,···,m−1} and create the baby-step list.
