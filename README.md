@@ -15,3 +15,7 @@ It is an efficient algorithm for computing discrete logarithm in the following m
 4. Compute value of f(r) = n(α<sup>-r</sup>)(mod  p) for r ∈ {0,···,m−1} and create the baby-step list.
 5. Compute value of h(q) = (α<sup>m</sup>)<sup>q</sup>(mod p) for q ∈ {0,···,m−1} and create the giant-step list.
 6. Look for q,r such that f(r) = h(q) and that gives discrete logarithm value as x=qm+r.
+
+## **Edwards Curve**
+An Edwards curve over a field K, with char(K) ̸ = 2 is represented as
+x2 + y2 = 1 + dx2y2
