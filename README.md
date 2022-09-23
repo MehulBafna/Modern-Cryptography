@@ -17,5 +17,6 @@ It is an efficient algorithm for computing discrete logarithm in the following m
 6. Look for q,r such that f(r) = h(q) and that gives discrete logarithm value as x=qm+r.
 
 ## **Edwards Curve**
-An Edwards curve over a field K, with char(K) ̸ = 2 is represented as
+An Edwards curve over a field K, with char(K) ̸an odd prime
 x2 + y2 = 1 + dx2y2
+where d ∈ K \{0, 1}
