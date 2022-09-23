@@ -31,6 +31,7 @@ Given a set of k independent components with each component having
 a secret information Ij for all j ∈ {1, · · · , k} with the below assumptions:
 
 • Point-to-point fail-free communication among all the components
+
 • At most i components are faulty (malicious) such that k ≥ 3i + 1
 
 is termed as tolerant towards Byzantine faults, if for a component X after communicating
