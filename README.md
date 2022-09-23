@@ -29,8 +29,10 @@ where a,d ∈ K/{0} and a is not equal to d.
 ## **Byzantine Agreement**
 Given a set of k independent components with each component having
 a secret information Ij for all j ∈ {1, · · · , k} with the below assumptions:
+
 • Point-to-point fail-free communication among all the components
 • At most i components are faulty (malicious) such that k ≥ 3i + 1
+
 is termed as tolerant towards Byzantine faults, if for a component X after communicating
 its secret information IX with all other components it follows that:
 1. If X is non-faulty (reliable) component, then all non-faulty components agree on
