@@ -18,11 +18,11 @@ It is an efficient algorithm for computing discrete logarithm in the following m
 
 ## **Edwards Curve**
 An Edwards curve over a field K such that characteristic of K is an odd prime is given by
-x<2>+y<2>=1+dx<2>y<2>
+x<sup>2+y<sup>2=1+dx<sup>2<sup>2
 where d ∈ K/{0,1}.
 
 ## **Twisted Edwards Curve**
 A twisted Edwards curve over a field K such that characteristic of K is an odd prime is given by
-ax<2>+y<2>=1+dx<2>y<2>
+ax<sup>2+y<sup>2=1+dx<sup>2<sup>2
 where a,d ∈ K/{0} and a is not equal to d.
 
